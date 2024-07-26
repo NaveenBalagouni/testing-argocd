@@ -7,8 +7,8 @@ spec:
     namespace: single-git-source
     server: https://kubernetes.default.svc
   source: 
-    path: Naveen/single-git-source
-    repourl: https://github.com/OpsMx/argo-training
+    path: git-sources
+    repourl: https://github.com/NaveenBalagouni/testing-argocd
     targetRevision: HEAD
   
   project: default
